@@ -1,0 +1,22 @@
+class main{ //for testing
+    public static void main(String[] args) {
+        Scanner inp = newScanner(System.in);
+        System.out.println("What would you like to do?"); 
+        String feature = inp.nextString();
+
+        if(feature == "add" || feature == "Add"){
+            System.out.println("Enter two numbers"); 
+            int n = inp.nextInt();
+            int b = inp.nextInt();
+            int x = add(n,b);
+        }
+
+        System.out.println("Addition is: " + x); 
+    }
+
+    public static int add(int a, int b){
+        return (a+b);
+    }
+
+
+}
