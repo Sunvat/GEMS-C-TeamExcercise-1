@@ -6,6 +6,7 @@ public class division{
 
         if (numbers[1].trim().equals("0")){
             System.out.println("Can not divide by zero.\nPlease try agian.");
+            throw new Exception("Can not divide by zero.");
         }
 
         double numerator = Double.parseDouble(numbers[0].trim());
