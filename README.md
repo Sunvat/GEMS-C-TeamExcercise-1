@@ -6,3 +6,5 @@ Documentation for team exercise for team Glohaven Emergency Management System (G
  2. *division.java*  : this file contains the code for division method for the calculator. As there could be an exception while dividing numbers by 0,an exception is       thrown in such case.
  3. *multiply.java*  : this file contains the code for multiplication method for the calculator.
  4. *subtraction.java* : this file contains the code for subtraction method for the calculator.
+ 5. *main.java* : contains the main method for the calculator to run the code.
+ 6. *divisionUnitTest.java* : this file is used as a unit test for the division function of the calculator, to prevent division by 0.
